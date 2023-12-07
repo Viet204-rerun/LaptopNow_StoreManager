@@ -1,0 +1,2 @@
+rootProject.name = "LaptopNow_StoreManager"
+include ':app'
