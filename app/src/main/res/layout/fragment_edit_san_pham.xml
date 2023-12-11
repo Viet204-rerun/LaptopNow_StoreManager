@@ -100,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Trạng thái kho"
+            android:text="Loại sản phẩm"
             android:textColor="@color/black"
             android:textSize="@dimen/text_small"
             app:layout_constraintStart_toStartOf="parent"
@@ -125,14 +125,14 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
-                android:text="Đã nhập kho" />
+                android:text="Loại Laptop" />
 
             <RadioButton
                 android:id="@+id/cbSPPhuKienChange"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
-                android:text="Chưa nhập kho" />
+                android:text="Loại Phụ Kiện" />
         </RadioGroup>
 
         <TextView

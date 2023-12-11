@@ -92,7 +92,7 @@ public class SanPhamAdapter extends RecyclerView.Adapter<SanPhamAdapter.ViewHold
                 holder.tvPLSP.setText("Loại: Phụ kiện  ");
                 holder.tvCTSP.setText("Loại phụ kiện: " + ttSP.getLoaiPhuKien());
             } else {
-                holder.tvPLSP.setText("Loại: Điện thoại  ");
+                holder.tvPLSP.setText("Loại: LapTop  ");
                 holder.tvCTSP.setText("RAM: " + ttSP.getRAM() + "  -  Bộ nhớ: " + ttSP.getBoNho());
             }
         } else {
