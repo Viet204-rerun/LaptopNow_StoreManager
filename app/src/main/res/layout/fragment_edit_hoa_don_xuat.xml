@@ -32,7 +32,8 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/hd_id"
                 android:clickable="true"
-                android:focusable="false"/>
+                android:focusable="false"            android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -59,7 +60,8 @@
                 android:ems="10"
                 android:focusable="false"
                 android:hint="@string/date"
-                android:inputType="textNoSuggestions" />
+                android:inputType="textNoSuggestions"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -86,7 +88,8 @@
                 android:ems="10"
                 android:focusable="false"
                 android:hint="@string/san_pham"
-                android:inputType="textNoSuggestions" />
+                android:inputType="textNoSuggestions"             android:background="@drawable/vienbutton1"
+                />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -114,7 +117,8 @@
                 android:ems="10"
                 android:focusable="false"
                 android:hint="@string/khach_hang"
-                android:inputType="textNoSuggestions" />
+                android:inputType="textNoSuggestions"             android:background="@drawable/vienbutton1"
+                />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -126,7 +130,8 @@
             android:layout_marginTop="16dp"
             android:text="@string/proted"
             android:textColor="@color/black"
-            android:textSize="@dimen/text_small"
+            android:textSize="17sp"
+            android:textStyle="italic"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tilKhXuatChange"
             tools:ignore="MissingConstraints" />
@@ -187,7 +192,8 @@
                 android:layout_height="wrap_content"
                 android:focusable="false"
                 android:hint="@string/soluong"
-                android:inputType="textNoSuggestions" />
+                android:inputType="textNoSuggestions"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -210,7 +216,8 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/don_gia"
                 android:focusable="false"
-                android:inputType="textNoSuggestions"/>
+                android:inputType="textNoSuggestions"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -221,6 +228,8 @@
             android:layout_marginTop="16dp"
             android:text="@string/sale"
             android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="italic"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tilDonGiaXuatChange" />
 
@@ -279,7 +288,8 @@
                 android:layout_height="wrap_content"
                 android:focusable="false"
                 android:hint="@string/money"
-                android:inputType="textNoSuggestions" />
+                android:inputType="textNoSuggestions"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ThongKe.DoanhThuFragment">
+    tools:context=".ui.ThongKe.DoanhThuFragment"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView7"
@@ -46,7 +47,8 @@
         android:paddingLeft="12dp"
         app:layout_constraintEnd_toStartOf="@+id/imgTuNgay"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/vienbutton1"/>
 
     <EditText
         android:id="@+id/edDenNgay"
@@ -60,6 +62,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:paddingLeft="12dp"
+        android:background="@drawable/vienbutton1"
         app:layout_constraintEnd_toStartOf="@+id/imgDenNgay"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/edTuNgay" />
@@ -92,6 +95,7 @@
         android:text="@string/xem"
         android:textAllCaps="false"
         android:textSize="@dimen/text_big"
+        android:background="@drawable/vienbutton1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edDenNgay" />
@@ -101,7 +105,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="@color/white"
+        android:background="@color/nenvang"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -132,7 +136,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        android:background="@color/white"
+        android:background="@color/nenvang"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -163,7 +167,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -173,6 +176,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
+            android:background="@color/nenvang"
             android:weightSum="3">
 
             <TextView

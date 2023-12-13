@@ -47,7 +47,8 @@
                 android:id="@+id/edMaSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_id" />
+                android:hint="@string/sp_id"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -67,7 +68,8 @@
                 android:id="@+id/edTenSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_name" />
+                android:hint="@string/sp_name"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -91,7 +93,8 @@
                 android:hint="@string/hang"
                 android:inputType="textNoSuggestions"
                 android:clickable="true"
-                android:focusable="false"/>
+                android:focusable="false"            android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -102,7 +105,8 @@
             android:layout_marginTop="16dp"
             android:text="Loại sản phẩm"
             android:textColor="@color/black"
-            android:textSize="@dimen/text_small"
+            android:textSize="17sp"
+            android:textStyle="italic"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tilHangSPChange" />
 
@@ -143,7 +147,8 @@
             android:layout_marginTop="16dp"
             android:text="@string/sp_status"
             android:textColor="@color/black"
-            android:textSize="@dimen/text_small"
+            android:textSize="17sp"
+            android:textStyle="italic"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cbLoaiSPChange" />
 
@@ -199,7 +204,8 @@
                 android:id="@+id/edGiaTienSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_money" />
+                android:hint="@string/sp_money"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -210,7 +216,8 @@
             android:layout_marginTop="16dp"
             android:text="Hệ điều hành"
             android:textColor="@color/black"
-            android:textSize="@dimen/text_small"
+            android:textSize="17sp"
+            android:textStyle="italic"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tilGiaTienSPChange" />
 
@@ -260,7 +267,8 @@
                 android:id="@+id/edOSSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_os" />
+                android:hint="@string/sp_os"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -279,7 +287,8 @@
                 android:id="@+id/edChipSetSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_chip" />
+                android:hint="@string/sp_chip"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -299,7 +308,8 @@
                 android:id="@+id/edManHinhSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_display" />
+                android:hint="@string/sp_display"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -319,7 +329,8 @@
                 android:id="@+id/edRAMSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_ram" />
+                android:hint="@string/sp_ram"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -339,7 +350,8 @@
                 android:id="@+id/edBoNhoSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_bonho" />
+                android:hint="@string/sp_bonho"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -359,7 +371,8 @@
                 android:id="@+id/edPinSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_battery" />
+                android:hint="@string/sp_battery"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -379,7 +392,8 @@
                 android:id="@+id/edTypeSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_type" />
+                android:hint="@string/sp_type"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -399,7 +413,8 @@
                 android:id="@+id/edLoaiPKSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_loaiPK" />
+                android:hint="@string/sp_loaiPK"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilMoTaSPChange"
@@ -420,7 +435,8 @@
                 android:id="@+id/edMoTaSPChange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/sp_note" />
+                android:hint="@string/sp_note"             android:background="@drawable/vienbutton1"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

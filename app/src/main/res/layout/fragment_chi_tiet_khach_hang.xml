@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_seach"
+    android:background="@color/nenxanh"
     tools:context=".ui.KhachHang.ChiTietKhachHangFragment">
 
     <TextView
@@ -15,6 +15,8 @@
         android:layout_marginTop="16dp"
         android:text="@string/tile_edit_kH"
         android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +25,7 @@
         android:layout_width="0dp"
         android:layout_height="@dimen/item_height"
         android:layout_marginTop="16dp"
-        android:background="@color/white"
+        android:background="@color/nenvang"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/item_height"
         android:layout_marginTop="2dp"
-        android:background="@color/white"
+        android:background="@color/nenvang"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +85,7 @@
 
         android:layout_marginTop="2dp"
 
-        android:background="@color/white"
+        android:background="@color/nenvang"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +113,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
-        android:background="@color/white"
+        android:background="@color/nenxanh"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

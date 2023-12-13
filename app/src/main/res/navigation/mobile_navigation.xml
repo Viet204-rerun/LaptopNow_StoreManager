@@ -3,12 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_home">
+    app:startDestination="@id/nav_home"
+    >
     <fragment
         android:id="@+id/nav_hoaDonXuat"
         android:name="com.example.LaptopNow.ui.HoaDonXuat.HoaDonXuatFragment"
         android:label="@string/menu_hd_xuat"
-        tools:layout="@layout/fragment_hoa_don_xuat" />
+        tools:layout="@layout/fragment_hoa_don_xuat"
+        />
     <fragment
         android:id="@+id/nav_hoaDonNhap"
         android:name="com.example.LaptopNow.ui.HoaDonNhap.HoaDonNhapFragment"

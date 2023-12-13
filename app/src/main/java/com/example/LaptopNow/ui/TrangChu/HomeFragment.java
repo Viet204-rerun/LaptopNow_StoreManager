@@ -23,7 +23,7 @@ import java.util.List;
 
 public class HomeFragment extends Fragment {
     private TextView tv_SLKH, tv_SLSP, tv_SLHDN, tv_SLHDX /*tvsoHD, tv_SLBan, tv_tongsl*/;
-    private LinearLayout ln_KH, ln_SP, ln_HDN, ln_HDX;
+    private LinearLayout ln_KH, ln_SP, ln_HDN, ln_HDX ,ln_DT,ln_TOP;
     private DaoKhachHang daoKH;
 
     @Override
@@ -44,6 +44,8 @@ public class HomeFragment extends Fragment {
         ln_SP = view.findViewById(R.id.car_SP);
         ln_HDN = view.findViewById(R.id.car_HDN);
         ln_HDX = view.findViewById(R.id.car_HDX);
+        ln_DT = view.findViewById(R.id.car_DT);
+        ln_TOP = view.findViewById(R.id.car_TOP);
         tv_SLKH = view.findViewById(R.id.tv_SLKH);
         tv_SLSP = view.findViewById(R.id.tv_SLSP);
         tv_SLHDN = view.findViewById(R.id.tv_SLHDN);
@@ -126,7 +128,21 @@ public class HomeFragment extends Fragment {
                 ((MainActivity) getActivity()).setClick(R.id.nav_hoaDonNhap);
             }
         });
-    }
+
+         ln_DT.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            ((MainActivity) getActivity()).setClick(R.id.nav_doanhThu);
+        }
+    });
+
+             ln_TOP.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+                ((MainActivity) getActivity()).setClick(R.id.nav_topSanPham);
+                }
+                });
+                }
 
     @Override
     public void onDestroy() {

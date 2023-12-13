@@ -123,9 +123,10 @@ public class SanPhamAdapter extends RecyclerView.Adapter<SanPhamAdapter.ViewHold
 
         if (sanPham.getTrangThai() == 0) {
             holder.tvTrangThai.setText("Chưa lưu kho");
+            holder.tvTrangThai.setTextColor(context.getResources().getColor(R.color.red));;
         } else {
             holder.tvTrangThai.setText("Đã lưu kho");
-            holder.tvTrangThai.setTextColor(context.getResources().getColor(R.color.green));
+            holder.tvTrangThai.setTextColor(context.getResources().getColor(R.color.blue));
         }
 
         holder.imgDelete.setOnClickListener(new View.OnClickListener() {

@@ -26,7 +26,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/pass_old"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:background="@drawable/vienbutton1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -47,7 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/pass"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:background="@drawable/vienbutton1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -68,7 +70,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/pass_re_change"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:background="@drawable/vienbutton1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -79,7 +82,8 @@
         android:layout_marginTop="16dp"
         android:text="@string/pass_forget"
         android:textColor="@color/black"
-        android:textSize="@dimen/text_small"
+        android:textSize="17sp"
+        android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilRePassChange" />
 
@@ -92,9 +96,10 @@
         android:layout_marginEnd="16dp"
         android:text="@string/reset_pass"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="@dimen/text_little"
         android:textStyle="bold"
+        android:background="@drawable/vienbutton1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />

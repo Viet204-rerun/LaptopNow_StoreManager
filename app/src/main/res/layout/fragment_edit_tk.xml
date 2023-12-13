@@ -25,7 +25,8 @@
             android:id="@+id/edMaNvTkChange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nv_id" />
+            android:hint="@string/nv_id"             android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -45,7 +46,8 @@
             android:id="@+id/ed_HoTen_TkChange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/name" />
+            android:hint="@string/name"             android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -68,7 +70,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/phone"
-            android:inputType="phone" />
+            android:inputType="phone"             android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -88,7 +91,8 @@
             android:id="@+id/ed_Tk_TkChange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/user_tk" />
+            android:hint="@string/user_tk"             android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -108,7 +112,8 @@
             android:id="@+id/ed_DiaChi_TkChange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/dia_chi" />
+            android:hint="@string/dia_chi"             android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -131,7 +136,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/date_year"
-            android:inputType="date" />
+            android:inputType="date"             android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,5 +23,8 @@
     <color name="btn_bg_end">#78ffd6</color>
     <color name="btn_cancel_start">#F2994A</color>
     <color name="btn_cancel_end">#F2C94C</color>
+    <color name="nenxanh">#48ECFB</color>
+    <color name="nenvang">#DCD452</color>
+
 
 </resources>

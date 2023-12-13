@@ -27,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hd_id"
+            android:background="@drawable/vienbutton1"
             android:clickable="true"
             android:focusable="false"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -53,6 +54,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/date"
+            android:background="@drawable/vienbutton1"
             android:inputType="textNoSuggestions"
             android:focusable="false"
             android:clickable="true"/>
@@ -80,6 +82,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/san_pham"
+            android:background="@drawable/vienbutton1"
             android:inputType="textNoSuggestions"
             android:focusable="false"
             android:clickable="true"/>
@@ -107,6 +110,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/soluong"
+            android:background="@drawable/vienbutton1"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -130,7 +134,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="@string/don_gia" />
+            android:hint="@string/don_gia"
+            android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -154,7 +160,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="@string/money" />
+            android:hint="@string/money"
+            android:background="@drawable/vienbutton1"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="@string/tog_quan"
-        android:textColor="@color/black"
+        android:textColor="@color/blue"
         android:textSize="@dimen/text_big"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         android:layout_height="@dimen/layout_size"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/focus_liner"
+        android:background="@drawable/vienbutton1"
         android:gravity="center"
         android:orientation="vertical"
         android:textAlignment="center"
@@ -37,7 +37,7 @@
         <ImageView
             android:layout_width="@dimen/item_img_size"
             android:layout_height="@dimen/item_img_size"
-            android:src="@drawable/ic_category" />
+            android:src="@drawable/ic_sanpham" />
 
         <TextView
             android:layout_width="match_parent"
@@ -64,7 +64,7 @@
         android:layout_height="@dimen/layout_size"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/focus_liner"
+        android:background="@drawable/vienbutton1"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +73,7 @@
         <ImageView
             android:layout_width="@dimen/item_img_size"
             android:layout_height="@dimen/item_img_size"
-            android:src="@drawable/ic_category" />
+            android:src="@drawable/ic_hoadon" />
 
         <TextView
             android:layout_width="match_parent"
@@ -98,7 +98,7 @@
         android:layout_height="@dimen/layout_size"
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
-        android:background="@drawable/focus_liner"
+        android:background="@drawable/vienbutton1"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,12 +107,12 @@
         <ImageView
             android:layout_width="@dimen/item_img_size"
             android:layout_height="@dimen/item_img_size"
-            android:src="@drawable/ic_category" />
+            android:src="@drawable/ic_nhaphang" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nhập hàng"
+            android:text="Nhập Hàng"
             android:textAlignment="center"
             android:textColor="@color/black" />
 
@@ -132,7 +132,7 @@
         android:layout_height="@dimen/layout_size"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/focus_liner"
+        android:background="@drawable/vienbutton1"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -141,7 +141,7 @@
         <ImageView
             android:layout_width="46dp"
             android:layout_height="56dp"
-            android:src="@drawable/ic_category" />
+            android:src="@drawable/ic_khachhang" />
 
         <TextView
             android:layout_width="match_parent"
@@ -159,117 +159,170 @@
             android:textColor="@color/black"
             android:textStyle="bold" />
     </LinearLayout>
-<!--
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="24dp"
-        android:text="Thống kê"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="@dimen/text_big"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-        app:layout_constraintEnd_toEndOf="parent"
+
+    <LinearLayout
+        android:id="@+id/car_DT"
+        android:layout_width="@dimen/layout_size"
+        android:layout_height="@dimen/layout_size"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/vienbutton1"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/car_HDN" />-->
+        app:layout_constraintTop_toBottomOf="@+id/car_SP">
 
-<!--    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/focus_liner"
-        app:layout_constraintEnd_toEndOf="parent"
+        <ImageView
+            android:layout_width="@dimen/item_img_size"
+            android:layout_height="@dimen/item_img_size"
+            android:src="@drawable/ic_doanhthu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thống Kê Doanh Thu"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/car_TOP"
+        android:layout_width="@dimen/layout_size"
+        android:layout_height="@dimen/layout_size"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/vienbutton1"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10">
+        app:layout_constraintTop_toBottomOf="@+id/car_SP">
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="@dimen/size"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="24dp"
-            android:text="Số hóa đơn"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="@dimen/size"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="Số lượng bán"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toStartOf="@+id/textView11"
-            app:layout_constraintStart_toEndOf="@+id/textView12"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="@dimen/size"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="8dp"
-            android:text="Tổng tiền"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/tv_soHD"
-            android:layout_width="@dimen/size"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+        <ImageView
+            android:layout_width="@dimen/item_img_size"
+            android:layout_height="@dimen/item_img_size"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="24dp"
-            android:text="0"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+            android:src="@drawable/ic_topsanpham" />
 
         <TextView
-            android:id="@+id/tv_SLBan"
-            android:layout_width="@dimen/size"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="24dp"
-            android:text="0"
+            android:text="Top Sản Phẩm Bán Chạy"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/tv_bank"
-            app:layout_constraintStart_toEndOf="@+id/tv_soHD"
-            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+            android:textColor="@color/black" />
 
-        <TextView
-            android:id="@+id/tv_bank"
-            android:layout_width="@dimen/size"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="24dp"
-            android:text="0"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+    </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--    <TextView-->
+<!--        android:id="@+id/textView10"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:text="Thống kê"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="@dimen/text_big"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/car_HDN" />-->
+
+<!-- <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/constraintLayout"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:background="@drawable/vienbutton1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView10">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView12"-->
+<!--            android:layout_width="@dimen/size"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:text="Số hóa đơn"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView9"-->
+<!--            android:layout_width="@dimen/size"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:text="Số lượng bán"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/textView11"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/textView12"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView11"-->
+<!--            android:layout_width="@dimen/size"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:text="Tổng tiền"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_soHD"-->
+<!--            android:layout_width="@dimen/size"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="24dp"-->
+<!--            android:text="0"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView12" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_SLBan"-->
+<!--            android:layout_width="@dimen/size"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="24dp"-->
+<!--            android:text="0"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/tv_bank"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/tv_soHD"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView9" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_bank"-->
+<!--            android:layout_width="@dimen/size"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="24dp"-->
+<!--            android:text="0"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView11" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

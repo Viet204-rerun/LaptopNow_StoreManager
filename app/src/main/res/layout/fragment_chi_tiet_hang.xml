@@ -5,8 +5,9 @@
     android:id="@+id/fragmentChiTietHang"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_seach"
-    tools:context=".ui.Hang.ChiTietHangFragment">
+    android:background="@color/nenxanh"
+    tools:context=".ui.Hang.ChiTietHangFragment"
+    >
 
     <ImageView
         android:id="@+id/imgHangShow"
@@ -18,17 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/name_hang"
-        android:textColor="@color/black"
-        android:textSize="@dimen/text_small"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgHangShow" />
 
     <LinearLayout
         android:id="@+id/lnlTenSP"
@@ -36,7 +26,7 @@
         android:layout_height="@dimen/item_height"
         android:layout_marginTop="165dp"
         android:layout_marginBottom="1dp"
-        android:background="@color/white"
+        android:background="@color/nenvang"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/lnlNhap"
         app:layout_constraintEnd_toEndOf="parent"

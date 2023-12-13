@@ -140,4 +140,5 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         dao.closeNV();
     }
+
 }

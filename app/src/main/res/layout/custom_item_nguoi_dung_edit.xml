@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilHoTenTkedit"
@@ -22,7 +23,8 @@
             android:id="@+id/ed_HoTen_Tkedit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/name" />
+            android:hint="@string/name"
+            android:background="@drawable/vienbutton1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -43,7 +45,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/phone"
-            android:inputType="phone" />
+            android:inputType="phone"
+            android:background="@drawable/vienbutton1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -63,7 +66,8 @@
             android:id="@+id/ed_DiaChi_Tkedit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/dia_chi" />
+            android:hint="@string/dia_chi"
+            android:background="@drawable/vienbutton1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -85,7 +89,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/date_year"
             android:inputType="date"
-            android:maxLength="4" />
+            android:maxLength="4"
+            android:background="@drawable/vienbutton1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
